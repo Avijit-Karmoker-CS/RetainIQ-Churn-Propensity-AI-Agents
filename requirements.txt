@@ -1,0 +1,24 @@
+# Core ML
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+joblib==1.6.0
+mlflow==3.16.1
+
+# ONNX export and serving
+onnx==1.23.2
+skl2onnx==1.20.0
+onnxruntime==1.30.0
+
+# Agents and protocols
+google-adk==2.11.0
+mcp==2.3.0
+a2a-sdk[http-server]==1.2.2
+
+# API
+fastapi==0.141.1
+uvicorn==0.54.0
+httpx==0.28.1
+
+# Testing
+pytest==9.1.1

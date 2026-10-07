@@ -1,0 +1,4 @@
+# Only needed to read from BigQuery or register models in Vertex AI.
+google-cloud-bigquery
+google-cloud-aiplatform
+db-dtypes

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retainiq"
+version = "1.0.0"
+description = "Churn and cross-sell propensity models with Google ADK agents, MCP tools, and A2A."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Avijit Karmoker" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning", "ignore::DeprecationWarning"]
